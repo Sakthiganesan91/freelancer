@@ -40,7 +40,7 @@
 }
 
 .footer {
-  background-image: url("/images/neondeveloper.jpg");
+  background-image: url("./images/neondeveloper.jpg");
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
