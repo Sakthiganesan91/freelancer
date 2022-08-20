@@ -47,7 +47,7 @@
 }
 
 .footer2 {
-  background-image: url("images/cris.jpg");
+  background-image: url("./images/cris.jpg");
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
