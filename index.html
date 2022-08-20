@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FreeLancer</title>
+    <link rel="icon" type="image/x-icon" href="./images/freelancelogo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0-beta.3/iconify-icon.min.js"></script>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img
+            src="./images/freelancelogo.png"
+            alt=""
+            width="30"
+            height="24"
+            class="d-inline-block align-text-center"
+          />
+          FreeLancer</a
+        >
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">How It Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Browse Jobs</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="text-decoration-none nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="text-decoration-none nav-link" href="#">Sign Up</a>
+              </li>
+              <button class="btn btn-info">Post a Project</button>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid bg-dark text-center align-middle">
+      <div class="row py-2">
+        <div class="col-12 col-md-2 col-lg-1">
+          <div class="dropdown">
+            <a
+              href="#"
+              class="text-decoration-none dropdown-toggle text-white fs-6 cursor-pointer"
+              data-bs-toggle="dropdown"
+            >
+              Find Jobs
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">By Skill</a></li>
+              <li><a class="dropdown-item" href="#">By Language</a></li>
+              <li><a class="dropdown-item" href="#">Featured</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-1">
+          <a href="" class="text-decoration-none text-white fs-6">Hire</a>
+        </div>
+        <div class="col-12 col-md-1">
+          <a href="" class="text-decoration-none fs-6 text-white">Get Ideas</a>
+        </div>
+        <div class="col-12 col-md-1">
+          <a href="" class="text-decoration-none fs-6 text-white">About</a>
+        </div>
+        <div class="col-12 col-md-1">
+          <a href="" class="text-decoration-none fs-6 text-white">Resources</a>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid img-fluid bg-img"
+      style="
+        background-image: url('./images/freelancebg.jpg');
+
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="container py-4 px-5 text-grey">
+        <h1>Hire The Best</h1>
+        <h1>freelancers for any job,</h1>
+        <h1>online.</h1>
+
+        <h4 class="hero-heading">
+          Millions of people use freelancer.com to turn their ideas <br />into
+          reality
+        </h4>
+        <button class="btn btn-info">Hire a Freelancer</button>
+        <div class="m-2" style="width: fit-content"></div>
+        <button class="button-pink">Earn Money Freelancing</button>
+      </div>
+    </div>
+
+    <div class="container-fluid mt-2">
+      <div class="row align-items-center p-3 text-center">
+        <div class="col-12 col-md-4 display-6">As Used By</div>
+        <div class="col-12 col-md-1 mt-2">
+          <img
+            src="./images/airbus.png"
+            alt=""
+            width="100"
+            height="144"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-12 col-md-1 mt-2">
+          <img
+            src="./images/deloitte.png"
+            alt=""
+            width="100"
+            height="144"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-12 col-md-1 mt-2">
+          <img
+            src="./images/google.png"
+            alt=""
+            width="100"
+            height="144"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-12 d-md-none mt-2">
+          <p class="display-6 text-center">And more...</p>
+        </div>
+
+        <div class="col-12 col-md-1 mt-2 d-none d-md-inline">
+          <img
+            src="./images/facebook.png"
+            alt=""
+            width="100"
+            height="144"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-12 col-md-1 mt-2 d-none d-md-inline">
+          <img
+            src="./images/nasa.png"
+            alt=""
+            width="50"
+            height="72"
+            class="img-fluid"
+          />
+        </div>
+        <div class="col-12 col-md-1 mt-2 d-none d-md-inline">
+          <img
+            src="./images/ibm.png"
+            alt=""
+            width="50"
+            height="72"
+            class="img-fluid"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr />
+
+      <h1 class="display-3">Need Something Done?</h1>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg">
+          <div class="card box">
+            <img
+              class="card-img-top"
+              src="./images/job.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h4 class="text-center">Post a Job</h4>
+              <p class="card-text text-center">
+                It is free and easy to post a job. Simply fill in a title,
+                description and budget and competitive bids come within minutes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg">
+          <div class="card box">
+            <img
+              class="card-img-top"
+              src="./images/freelancer.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h4 class="text-center">Choose Freelancers</h4>
+              <p class="card-text text-center">
+                No job is too big or too small. We've got freelancers for jobs
+                of any size or budget, across 1800+ skills. No job is too
+                complex. We can get it done!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg">
+          <div class="card box">
+            <img
+              class="card-img-top"
+              src="./images/payment.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h4 class="text-center">Pay Safely</h4>
+              <p class="card-text text-center">
+                Only pay for work when it has been completed and you're 100%
+                satisfied with the quality using our milestone payment system.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg">
+          <div class="card box">
+            <img
+              class="card-img-top"
+              src="./images/help.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h4 class="text-center">We're Here To Help</h4>
+              <p class="card-text text-center">
+                Our talented team of recruiters can help you find the best
+                freelancer for the job and our technical co-pilots can even
+                manage the project for you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <hr />
+
+      <h1 class="display-3">What's Great About it</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg">
+          <div class="card box">
+            <img
+              class="card-img-top"
+              src="./images/browse.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h4 class="text-center">Browse Portfolios</h4>
+              <p class="card-text text-center">
+                Find professionals you can trust by browsing their samples of
+                previous work and reading their profile reviews.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg">
+          <div class="card box">
+            <img
+              class="card-img-top"
+              src="./images/bid.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h4 class="text-center">Fast Bids</h4>
+              <p class="card-text text-center">
+                Receive obligation free quotes from our talented freelancers
+                fast. 80% of projects get bid on within 60 seconds.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg">
+          <div class="card box">
+            <img
+              class="card-img-top"
+              src="./images/qulaity.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h4 class="text-center">Quality Work</h4>
+              <p class="card-text text-center">
+                Freelancer.com has by far the largest pool of quality
+                freelancers globally- over 50 million to choose from.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg">
+          <div class="card box">
+            <img
+              class="card-img-top"
+              src="./images/track.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h4 class="text-center">Track Progress</h4>
+              <p class="card-text text-center">
+                Keep up-to-date and on-the-go with our time tracker, and mobile
+                app. Always know what freelancers are up to.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr />
+
+      <h1 class="display-5">Make It Real With Freelancer</h1>
+      <p class="fs-5">Get some inspiration from 1800+ skills</p>
+    </div>
+
+    <div class="container">
+      <div class="row align-items-start">
+        <div class="col-12 col-lg-3 mt-2">
+          <img
+            src="./images/productdesign.jpg"
+            alt="productdesign"
+            class="img-fluid discover"
+          />
+          <h5 class="mt-1">Product Design for $300</h5>
+        </div>
+        <div class="col-12 col-lg-3 mt-2">
+          <img
+            src="./images/editing.jpg"
+            alt="editing"
+            class="img-fluid discover"
+          />
+          <h5 class="mt-1">Video Editing for $350</h5>
+        </div>
+        <div class="col-12 col-lg-3 mt-2">
+          <img
+            src="./images/modelling.jpg"
+            alt="editing"
+            class="img-fluid discover"
+          />
+          <h5 class="mt-1">3D modelling for $800</h5>
+        </div>
+        <div class="col-12 col-lg-3 mt-2">
+          <img
+            src="./images/webdesign.jpg"
+            alt="editing"
+            class="img-fluid discover"
+          />
+          <h5 class="mt-1">Website deisgn for $700</h5>
+        </div>
+      </div>
+
+      <div class="row align-items-start">
+        <div class="col-12 col-lg-3 mt-2 d-none d-lg-inline">
+          <img
+            src="./images/sketching.jpg"
+            alt="productdesign"
+            class="img-fluid discover"
+          />
+          <h5 class="mt-1">Sketching for $400</h5>
+        </div>
+        <div class="col-12 col-lg-3 mt-2 d-none d-lg-inline">
+          <img
+            src="./images/photodesign.jpg"
+            alt="editing"
+            class="img-fluid discover"
+          />
+          <h5 class="mt-1">Photo Editing for $350</h5>
+        </div>
+        <div class="col-12 col-lg-3 mt-2 d-none d-lg-inline">
+          <img
+            src="./images/logo.jpg"
+            alt="editing"
+            class="img-fluid discover"
+          />
+          <h5 class="mt-1">Logo Desing for $800</h5>
+        </div>
+        <div class="col-12 col-lg-3 mt-2 d-none d-lg-inline">
+          <img
+            src="./images/summary.jpg"
+            alt="editing"
+            class="img-fluid discover"
+          />
+          <h5 class="mt-1">Summary Writing for $100</h5>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr />
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-6 footer bg-img img-fluid mt-2 p-3">
+          <h2 class="fs-1 text-justify pt-3 pb-2">Freelancer API</h2>
+          <h5 class="fs-2 text-justify">
+            50 million professionals<br />
+            on demand
+          </h5>
+          <p class="text-justify">
+            Why hire people when you can simply integrate our <br />talented
+            cloud workforce instead?
+          </p>
+
+          <div class="text-justify pb-5">
+            <button class="button-pink">View Documentation</button>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 footer2 bg-img img-fluid mt-2 p-3">
+          <h2 class="fs-1 text-justify pt-3 pb-2">Freelancer Enterprise</h2>
+          <h5 class="fs-2 text-justify">
+            Company budget? Get<br />
+            more done for less
+          </h5>
+          <p class="text-justify">
+            Use our workforce of 50 million to help your<br />
+            business achieve more.
+          </p>
+          <div class="text-justify pb-5">
+            <button class="button-pink">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid bg-dark text-white">
+      <div class="row p-2 text-center">
+        <div class="col-12 col-lg-2">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/images/freelancelogo.png"
+              alt=""
+              width="30"
+              height="24"
+              class="d-inline-block align-text-center"
+            />
+            FreeLancer</a
+          >
+          <p class="mt-3">
+            <a href="" class="text-decoration-none text-white">
+              <iconify-icon icon="ic:outline-language"></iconify-icon>
+              India/English
+            </a>
+          </p>
+
+          <p>
+            <a href="" class="text-decoration-none text-white">
+              <iconify-icon icon="ic:outline-help-outline"></iconify-icon>
+              Help & Support
+            </a>
+          </p>
+        </div>
+        <div class="col-12 col-md-3 col-lg-2 text-center">
+          <h5 class="text-center">Freelancer</h5>
+
+          <ul style="list-style: none">
+            <li class="">Categories</li>
+            <li class="">Projects</li>
+            <li class="">Contests</li>
+            <li class="">Enterprise</li>
+            <li class="">Freelancers</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-3 col-lg-2">
+          <h5 class="text-center">About</h5>
+
+          <ul style="list-style: none">
+            <li class="">About Us</li>
+            <li class="">How It Works</li>
+            <li class="">Careers</li>
+            <li class="">Security</li>
+            <li class="">Investors</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-3 col-lg-2">
+          <h5 class="text-center">Terms</h5>
+
+          <ul style="list-style: none">
+            <li class="">Privacy Policy</li>
+            <li class="">Terms and Conditions</li>
+            <li class="">Copyrights Policy</li>
+            <li class="">Code Of Conduct</li>
+            <li class="">Fees and Charges</li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-3 col-lg-2">
+          <h5 class="text-center">Partners</h5>
+
+          <ul style="list-style: none">
+            <li class="">Loadshift</li>
+            <li class="">Freightlancer</li>
+            <li class="">Warrior Forum</li>
+            <li class="">Escrow</li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-2">
+          <h5 class="text-center">Apps</h5>
+
+          <div class="row">
+            <div class="col-12 col-lg-12">
+              <img
+                width="120"
+                src="./images/googleplay.png"
+                alt="google"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-12 col-lg-12">
+              <img
+                width="100"
+                src="./images/apple.png"
+                alt="google"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="row mt-2">
+            <div class="col-3 col-lg-3">
+              <iconify-icon
+                class="fb"
+                icon="akar-icons:facebook-fill"
+              ></iconify-icon>
+            </div>
+            <div class="col-3 col-lg-3">
+              <iconify-icon
+                class="twitter"
+                icon="akar-icons:twitter-fill"
+              ></iconify-icon>
+            </div>
+            <div class="col-3 col-lg-3">
+              <iconify-icon
+                class="yt"
+                icon="akar-icons:youtube-fill"
+              ></iconify-icon>
+            </div>
+            <div class="col-3 col-lg-3">
+              <iconify-icon
+                class="insta"
+                icon="ant-design:instagram-filled"
+              ></iconify-icon>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <hr style="color: white" />
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-6 col-lg-4 mt-2">
+              <h5>61,130,002</h5>
+              Registered Users
+            </div>
+            <div class="col-6 col-lg-4 mt-2">
+              <h5>21,777,598</h5>
+              Total Jobs Posted
+            </div>
+            <div class="col-12 col-lg-4 mt-2">
+              <p class="" style="font-size: 18px">
+                Freelancer ® is a registered Trademark of Freelancer Technology
+                Pty Limited (ACN 142 189 759) & Freelancer Online India Private
+                Limited (CIN U93HR2011FTC043854) Copyright © 2022 Freelancer
+                Technology Pty Limited (ACN 142 189 759)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
